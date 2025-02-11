@@ -17,7 +17,7 @@ body {
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    padding: 10px;
+    
 }
 
 
@@ -58,7 +58,7 @@ header {
 
 
 #home {
-    display: flex;
+   display: flex; 
     align-items: center;
     height: 100vh;
     padding: 50px 5%;
@@ -66,6 +66,7 @@ header {
 }
 
 .home-detail h1 {
+    display: inline-block; 
     font-size: 55px;
     font-weight: bold;
     line-height: 1.2;
@@ -262,7 +263,7 @@ form button {
     cursor: pointer;
     text-align: center; 
 }
-@media (max-width: 768px) {
+
 footer {
     text-align: center;
     padding: 20px;
@@ -275,5 +276,4 @@ footer p {
     border-top: 10%;
     margin: 0;
     font-size: 16px;
-}
 }
