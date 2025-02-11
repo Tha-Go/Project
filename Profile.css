@@ -17,8 +17,7 @@ body {
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    /* backdrop-filter: blur(20px); */
-    padding: 30px;
+    padding: 10px;
 }
 
 
@@ -263,12 +262,12 @@ form button {
     cursor: pointer;
     text-align: center; 
 }
-
+@media (max-width: 768px) {
 footer {
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 1370px;
+    margin-top: 370%;
     border-radius: 10px;
 }
 
@@ -276,4 +275,5 @@ footer p {
     border-top: 10%;
     margin: 0;
     font-size: 16px;
+}
 }
